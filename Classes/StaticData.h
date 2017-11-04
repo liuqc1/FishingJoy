@@ -5,7 +5,7 @@
 //  @ Project : FishingJoy
 //  @ File Name : StaticData.h
 //  @ Date : 2017/10/4
-//  @ Author : ¡ı«∞≥Ã
+//  @ Author : “∂‘≠√˙
 //
 //
 
