@@ -1,0 +1,89 @@
+﻿生成启动时间为 2017/11/25 22:44:05。
+     1>项目“F:\cocos2d-x-2.2.5\project\fish\proj.win32\FishingJoy.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\FishingJoy.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\visual stdio 2010\VC\bin\CL.exe /c /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx\include" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx\platform\win32" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\external" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\CocosDenshion\include" /I"F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\BackgroundLayer.cpp ..\Classes\Bullet.cpp ..\Classes\Cannon.cpp ..\Classes\CannonLayer.cpp ..\Classes\Fish.cpp ..\Classes\FishLayer.cpp ..\Classes\FishNet.cpp ..\Classes\GameMenuLayer.cpp ..\Classes\GameScene.cpp ..\Classes\MenuLayer.cpp ..\Classes\StaticData.cpp ..\Classes\TouchLayer.cpp ..\Classes\Weapon.cpp main.cpp
+         main.cpp
+         Weapon.cpp
+         TouchLayer.cpp
+         StaticData.cpp
+         MenuLayer.cpp
+         GameScene.cpp
+     1>f:\cocos2d-x-2.2.5\project\fish\classes\gamescene.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         GameMenuLayer.cpp
+     1>f:\cocos2d-x-2.2.5\project\fish\classes\gamemenulayer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FishNet.cpp
+         FishLayer.cpp
+     1>f:\cocos2d-x-2.2.5\project\fish\classes\fish.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Fish.cpp
+     1>f:\cocos2d-x-2.2.5\project\fish\classes\fish.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CannonLayer.cpp
+         Cannon.cpp
+         Bullet.cpp
+         BackgroundLayer.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\FishingJoy.exe.embed.manifest.res" Debug.win32\FishingJoy_manifest.rc 
+       PreLinkEvent:
+         if not exist "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\" mkdir "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\cocos2d-x-2.2.5\project\fish\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         E:\visual stdio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\FishingJoy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.lib" /MACHINE:X86 Debug.win32\FishingJoy.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BackgroundLayer.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Cannon.obj
+         Debug.win32\CannonLayer.obj
+         Debug.win32\Fish.obj
+         Debug.win32\FishLayer.obj
+         Debug.win32\FishNet.obj
+         Debug.win32\GameMenuLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\StaticData.obj
+         Debug.win32\TouchLayer.obj
+         Debug.win32\Weapon.obj
+         Debug.win32\main.obj
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libExtensions.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libBox2D.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libchipmunk.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\FishingJoy.exe.embed.manifest" /manifest Debug.win32\FishingJoy.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\FishingJoy.exe.embed.manifest.res" Debug.win32\FishingJoy_manifest.rc 
+       LinkEmbedManifest:
+         E:\visual stdio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\FishingJoy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.lib" /MACHINE:X86 Debug.win32\FishingJoy.exe.embed.manifest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BackgroundLayer.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Cannon.obj
+         Debug.win32\CannonLayer.obj
+         Debug.win32\Fish.obj
+         Debug.win32\FishLayer.obj
+         Debug.win32\FishNet.obj
+         Debug.win32\GameMenuLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\MenuLayer.obj
+         Debug.win32\StaticData.obj
+         Debug.win32\TouchLayer.obj
+         Debug.win32\Weapon.obj
+         Debug.win32\main.obj
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libExtensions.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libBox2D.lib"
+         "F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\libchipmunk.lib"
+         FishingJoy.vcxproj -> F:\cocos2d-x-2.2.5\project\fish\proj.win32\Debug.win32\FishingJoy.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\FishingJoy.unsuccessfulbuild”。
+         正在对“Debug.win32\FishingJoy.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\cocos2d-x-2.2.5\project\fish\proj.win32\FishingJoy.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:26.02
